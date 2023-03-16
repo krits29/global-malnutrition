@@ -86,3 +86,42 @@ downloaded country-wise-estimates straight from Kaggle as a csv (we did not use 
 dataset from Kaggle in our analysis). The cost dataset had options to filter down the data and
 choose subsets of the data. For this project, we downloaded all data from the FAOSTAT website
 as a csv and filtered it using Python as needed.
+
+
+## Research Question 1
+
+To determine where the forms of malnutrition are most prevalent, we plotted the ten countries
+with the highest levels for each stunting, wasting, overweight, and underweight, colored by
+income classification. Regardless, some limitations we need to consider are that the dataset did
+not include data for every country (for instance, Russia and Canada were not in the sample).
+Also, because it would be difficult to truly determine the percentage of any form of malnutrition
+for an entire country’s under-five population, the percentages we plotted may not be exactly
+correct.
+
+The ten countries with the highest percentage of stunting (low height-for-age of the under-five
+population) are Burundi, Timor-Leste, Bangladesh, Guatemala, Eritrea, Madagascar, Nepal,
+Yemen, Malawi, and India. Out of these ten countries, 6 have an income classification of 0 (low),
+3 have a classification of 1 (lower-middle), and one has an income classification of 2
+(upper-middle). Looking at the graphs, it seems that stunting is higher in countries with a lower
+income classification. We were surprised that most of these countries had stunting percentages
+about 50%, implying that the majority of the under-five population has a low height for their age.
+This reveals the overwhelming prevalence and impact of malnutrition in some countries.
+
+
+
+## Research Question 2
+
+To determine where the forms of malnutrition are most prevalent, we plotted the ten countries with the highest levels for each stunting, wasting, overweight, and underweight, colored by income classification. Regardless, some limitations we need to consider are that the dataset did not include data for every country (for instance, Russia and Canada were not in the sample). Also, because it would be difficult to truly determine the percentage of any form of malnutrition for an entire country’s under-five population, the percentages we plotted may not be exactly correct.
+
+
+The ten countries with the highest percentage of stunting (low height-for-age of the under-five population) are Burundi, Timor-Leste, Bangladesh, Guatemala, Eritrea, Madagascar, Nepal, Yemen, Malawi, and India. Out of these ten countries, 6 have an income classification of 0 (low), 3 have a classification of 1 (lower-middle), and one has an income classification of 2 (upper-middle). Looking at the graphs, it seems that stunting is higher in countries with a lower income classification. We were surprised that most of these countries had stunting percentages about 50%, implying that the majority of the under-five population has a low height for their age. This reveals the overwhelming prevalence and impact of malnutrition in some countries. 
+
+## Research Question 3
+
+In the last research question we wanted to train a model that would predict overall malnutrition rates based on given income levels, cost of healthy diet, and the percentage of population unable to afford a healthy diet in a particular area. To accomplish this, we used a library that would help us create a regressor model, since there were multiple numerical inputs. We utilized a decision tree regressor along with a multi-layer perceptron regressor. The reason we used neural networks was because it is better for interpreting many different features (inputs), as it creates multiple hidden layers which interpret all the different features better than a singular tree would. 
+
+
+After splitting the data into 80% training and 20% testing data, we ran both the models which resulted in an average of 98% accuracy predicting overall malnutrition levels. Additionally, since we used a multi-layer perceptron, we were able to plot the partial dependence curves which show the features that played the largest role in determining the overall output (malnutrition levels) and at what numerical ranges they were most accurate.
+Looking at the graphs, we are able to see the tendencies of the models and analyze any inconsistencies. For the decision tree partial dependence curves, we can see that as the input ‘Income Classification’ and ‘Cost of Healthy Diet’ increased, the accuracy of the model decreased. The feature that seemed to increase the accuracy of the tree model the most was the ‘Percentage Unable to Afford’ feature. However looking at the dependence curves for the multi-layer perceptron model, we can clearly see that the model was still taking time to learn towards the beginning input values, but soon was able to have exponentially increasing accuracies as the features’ data values increased. The consistency of the mult-layer-perceptron model as shown on the graphs also makes it a more preferred algorithm to utilize.
+
+To answer our research question, we are able to create a machine learning model given specific numerical inputs of a certain area (income classification, cost of healthy diet, and percentage unable to afford) to predict overall malnutrition rates of that area with a high accuracy using advance ML models such as a multi layer perceptron and decision tree regressor. 

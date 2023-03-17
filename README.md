@@ -107,6 +107,11 @@ income classification. We were surprised that most of these countries had stunti
 about 50%, implying that the majority of the under-five population has a low height for their age.
 This reveals the overwhelming prevalence and impact of malnutrition in some countries.
 
+![Plotted global malnutrition](https://user-images.githubusercontent.com/31025768/225978189-25d6df45-9b8b-492f-b591-77d12d262287.png)
+
+<img width="1294" alt="image" src="https://user-images.githubusercontent.com/31025768/225980391-168221e7-3ddc-4af0-a2c9-f1e753e7e795.png">
+
+<img width="1294" alt="image" src="https://user-images.githubusercontent.com/31025768/225980577-e413002d-9161-4291-8b46-4c3d7b9b1ccb.png">
 
 
 ## Research Question 2

@@ -109,17 +109,26 @@ This reveals the overwhelming prevalence and impact of malnutrition in some coun
 
 ![Plotted global malnutrition](https://user-images.githubusercontent.com/31025768/225978189-25d6df45-9b8b-492f-b591-77d12d262287.png)
 
-<img width="1294" alt="image" src="https://user-images.githubusercontent.com/31025768/225980391-168221e7-3ddc-4af0-a2c9-f1e753e7e795.png">
-
-<img width="1294" alt="image" src="https://user-images.githubusercontent.com/31025768/225980577-e413002d-9161-4291-8b46-4c3d7b9b1ccb.png">
 
 
 ## Research Question 2
 
-To determine where the forms of malnutrition are most prevalent, we plotted the ten countries with the highest levels for each stunting, wasting, overweight, and underweight, colored by income classification. Regardless, some limitations we need to consider are that the dataset did not include data for every country (for instance, Russia and Canada were not in the sample). Also, because it would be difficult to truly determine the percentage of any form of malnutrition for an entire country’s under-five population, the percentages we plotted may not be exactly correct.
+For this question, our focus was comparing cost and affordability of healthy diets with malnutrition rates around the globe to determine possible correlations. First, we assessed the “Overall Malnutrition Rates” around the globe by looking at the average malnutrition across all categories. 
 
+We found that the top 10 countries with the highest malnutrition rates are *India, Timor-Leste, Bangladesh, Yemen, South Sudan, Niger, Eritrea, Pakistan, Nepal, and Chad*.
 
-The ten countries with the highest percentage of stunting (low height-for-age of the under-five population) are Burundi, Timor-Leste, Bangladesh, Guatemala, Eritrea, Madagascar, Nepal, Yemen, Malawi, and India. Out of these ten countries, 6 have an income classification of 0 (low), 3 have a classification of 1 (lower-middle), and one has an income classification of 2 (upper-middle). Looking at the graphs, it seems that stunting is higher in countries with a lower income classification. We were surprised that most of these countries had stunting percentages about 50%, implying that the majority of the under-five population has a low height for their age. This reveals the overwhelming prevalence and impact of malnutrition in some countries. 
+<img width="1294" alt="image" src="https://user-images.githubusercontent.com/31025768/225980391-168221e7-3ddc-4af0-a2c9-f1e753e7e795.png">
+
+On the other hand the 10 countries where malnutrition is least prevalent are *Germany, Japan, South Korea, USA, Singapore, Czechia, Samoa, Saint Lucia, Tuvalu and Kuwait*. 
+
+<img width="1294" alt="image" src="https://user-images.githubusercontent.com/31025768/225980577-e413002d-9161-4291-8b46-4c3d7b9b1ccb.png">
+
+Here, we can see that regionally, malnutrition seems to be most prevalent in South Asian and Sub-Saharan African countries. To deepen our analysis, we investigated how accessible healthy diets are across the globe and whether they correlate with malnutrition rates. We visualized the countries with the highest and lowest cost of diets.
+
+<img width="1288" alt="image" src="https://user-images.githubusercontent.com/31025768/227321400-7909bde4-109e-4ea2-80dd-5d1daa93d409.png">
+
+From these graphs we can see that the cost of diet may not necessarily correlate with malnutrition as countries in regions where malnutrition is prevalent also seem to have low costs; however, we can’t conclude that there is no correlation simply by looking at these graphs. 
+
 
 ## Research Question 3
 

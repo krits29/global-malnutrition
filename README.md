@@ -129,6 +129,14 @@ Here, we can see that regionally, malnutrition seems to be most prevalent in Sou
 
 From these graphs we can see that the cost of diet may not necessarily correlate with malnutrition as countries in regions where malnutrition is prevalent also seem to have low costs; however, we can’t conclude that there is no correlation simply by looking at these graphs. 
 
+<img width="1065" alt="image" src="https://user-images.githubusercontent.com/31025768/229890936-b0d4a9f0-9108-4ecb-944d-694fd7352c37.png">
+
+<img width="1069" alt="image" src="https://user-images.githubusercontent.com/31025768/229891113-6357e085-c00d-4bd0-89c8-3224a67372b1.png">
+
+
+As seen by these graphs, the percentage of the population unable to afford a healthy diet seems to have a stronger positive correlation with malnutrition than the cost of a healthy diet itself. As seen in previous charts, income level seems to be a factor in malnutrition rates, and so it makes sense that affordability plays a role here at a higher level than just cost per day. We don’t see much of a correlation between the cost of a healthy diet and malnutrition, but further analysis may be needed here to draw a conclusion. 
+
+Overall the insights gained here can help us address larger societal issues such as poverty and unequal access to food resources. By investigating and comparing the systems in the countries with high rates of malnutrition with those of lower rates, we may propose solutions to mitigate the issue. 
 
 ## Research Question 3
 
